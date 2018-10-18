@@ -1,12 +1,20 @@
 {
-  "name": "node-js-getting-started",
-  "version": "0.3.0",
-
+  "name": "dialogflowFirebaseFulfillment",
+  "description": "Dialogflow Fulfillment Library Sample for parameters, contexts and rich responses",
+  "version": "0.0.1",
+  "private": true,
+  "license": "Apache Version 2.0",
+  "author": "Google Inc.",
   "engines": {
-    "node": "8.11.1"
+    "node": ">=6.0"
+  },
+  "scripts": {
+    "start": "firebase serve --only functions:dialogflowFirebaseFulfillment",
+    "deploy": "firebase deploy --only functions:dialogflowFirebaseFulfillment"
   },
   "dependencies": {
-    "ejs": "^2.5.6",
-    "express": "^4.15.2"
-  },
+    "firebase-admin": "^4.2.1",
+    "firebase-functions": "^0.5.7",
+    "dialogflow-fulfillment": "0.3.0-beta.3"
+  }
 }
