@@ -1,0 +1,32 @@
+[
+  {
+    "id": "31a085e0-def4-404a-bf35-1697f4491b92",
+    "data": [
+      {
+        "text": "w",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539934848
+  },
+  {
+    "id": "be1e0e94-55ab-43a8-a91b-4783e2c7b821",
+    "data": [
+      {
+        "text": "que tiempo hace en ",
+        "userDefined": false
+      },
+      {
+        "text": "madrid",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1539934848
+  }
+]
